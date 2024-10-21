@@ -1,0 +1,14 @@
+.box-model{
+    display: flex;
+    flex-wrap:  wrap;
+    padding: 50px;
+    gap: 45px;
+    justify-content: space-between;
+    box-shadow: 10px 20px black;
+    box-shadow: 0px 0px 30px 0px rgba(0, 255, 81, 0.439);
+}
+
+.cardshadow{   
+    box-shadow: 10px 10px 10px 10px rgb(96, 95, 95);
+
+}

@@ -1,16 +1,19 @@
-import React from "react";
 import "../components/navbar.css";
 
 function Navbar() {
+  
+  
+  
+  
   return (
     <>
       <div className="navbar">
-        <h3>Start Bootstrap</h3>
+        <h3 className="stbt">s҉h҉o҉c҉k҉​</h3>
         <ul className="options">
           <li>Home</li>
-          <li>About</li>
+          <li>About</li>  
           <li>
-            <div className="dropdown">
+            <div className="dropdownn">
             <button className="drpbtn">Shop</button>
             <div className="dropdown-cnt">
                <a href="#">All products</a>
@@ -20,7 +23,7 @@ function Navbar() {
             </div>
           </li>
         </ul>
-        <button>Cart</button>
+        <button className="cart"><img style={{width:"45px",height:"auto",padding:"0px 10px 4px 0px"}} src="https://cdn-icons-png.flaticon.com/128/1170/1170678.png"></img>Cart{}</button>
       </div>
     </>
   );

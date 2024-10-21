@@ -1,11 +1,12 @@
 .box{
     height: 60vh;
     width: auto;
-    background-color: darkslategrey; 
+    background-image: linear-gradient(180deg, red, yellow); 
+    
 }
 .box-div{
     position: relative;
     text-align: center;
     top:40%;   
-    color:rgba(255, 255, 255, 0.851);
+    color:black;
 }
