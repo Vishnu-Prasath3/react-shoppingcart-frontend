@@ -1,0 +1,41 @@
+.navbar{
+height: 50px;
+width:auto;
+background-color:rgba(245, 245, 245, 0.738);
+display: flex;
+gap: 20px;
+padding-left: 50px;
+align-items:center;
+}
+.options{
+    display: flex;
+    gap: 50px;
+    
+}
+ li{
+    list-style:none;
+}
+.dropdown-cnt{
+    display:none;
+}
+.dropdown-cnt a{
+ display: block;
+ font-size: small;
+ text-decoration: none;
+ padding: 5px;
+ color: black;
+ background-color:white;
+}
+.dropdown-cnt a:hover {
+background-color: grey;
+}
+.drpbtn{
+    border: none;
+    background-color:rgba(245, 245, 245, 0.738);
+
+}
+.dropdown:hover .dropdown-cnt{
+    display:block;
+    text-decoration:none;
+    position: absolute;
+}
