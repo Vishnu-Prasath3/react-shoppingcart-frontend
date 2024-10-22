@@ -15,6 +15,7 @@ align-items:center;
  li{
     list-style:none;
 }
+
 .dropdown-cnt{
     display:none;
 }
@@ -25,6 +26,8 @@ align-items:center;
  padding: 5px;
  color: black;
  background-color:white;
+ padding: 20px;
+ 
 }
 .dropdown-cnt a:hover {
 background-color: grey;
@@ -56,4 +59,29 @@ animation:shaking 1s infinite;
     right: 50px;
     font-size: xx-large;
 
+}
+@media only screen and (max-width:600px){
+.options{
+display: none;
+}
+.cart{
+ height: 50px;
+ width: 50px;
+}
+.cart-image{
+    display: none;
+}
+.dropdownn{
+    display:flex;
+
+}
+.mble-image{
+  background-color: transparent;
+
+}
+}
+.mble-image{
+    background-color: transparent;
+    height: 100px;
+    width: 100px;
 }

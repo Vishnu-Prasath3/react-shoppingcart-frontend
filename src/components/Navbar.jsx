@@ -23,10 +23,12 @@ function Navbar() {
             </div>
           </li>
         </ul>
-        <button className="cart"><img style={{width:"45px",height:"auto",padding:"0px 10px 4px 0px"}} src="https://cdn-icons-png.flaticon.com/128/1170/1170678.png"></img>Cart{}</button>
+        <button className="cart"><img className="cart-image" style={{width:"45px",height:"auto",padding:"0px 10px 4px 0px"}} src="https://cdn-icons-png.flaticon.com/128/1170/1170678.png"></img>Cart{}</button>
+        <button className="mblecart" ><img className="mble-image" src="/src/assets/reels.jpeg"></img></button> 
+         
       </div>
     </>
-  );
+  );  
 }
 
 export default Navbar;

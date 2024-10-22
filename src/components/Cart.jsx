@@ -7,12 +7,9 @@ import '../components/cart.css';
 function Cart() {
 
 
-
-    function handleclick(id){
-
-   let cartbtn=document.getElementById('cartbtn')
-   cartbtn.style="visibility: invisible";
-   let btn=document.getElementById('addsub')
+    function handleclick(index){
+    let newindex=products.map((p,ind)=>{ind!==index})
+    console.log(newindex);
     
     }
 
@@ -26,9 +23,9 @@ function Cart() {
     <div className="card-body">
       <h5 className="card-title">{p.name}</h5>
       <p className="card-text ">{"Rs:"+p.price+" /."} </p>
-      <button   className="btn btn-primary" id='cartbtn'  onClick={()=>{handleclick(index)}}>{"Cart"}</button>
+      <button   className="btn btn-primary" id='cartbtn' style={{}}  onClick={()=>{handleclick(index)}}>{"Cart"}</button>
       <div id='addsub'>
-      <button>--</button><button>1</button><button>+</button>
+      <button>-</button>   <button>1</button>  <button>+</button>
       </div>
     </div>
     </div>
