@@ -1,3 +1,4 @@
+import React from "react";
 import "../components/hero.css";
 function Hero() {
   return (

@@ -1,6 +1,7 @@
 .box-model{
     display: flex;
-    flex-wrap:  wrap;
+    flex-wrap:wrap;
+    
     padding: 50px;
     gap: 45px;
     justify-content: space-between;
